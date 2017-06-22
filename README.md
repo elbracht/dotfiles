@@ -7,7 +7,22 @@
 ```
 $ git clone https://github.com/elbracht/dotfiles.git
 $ cd dotfiles
+
+# Link dotfiles
 $ source setup.sh
+
+# Install applications
+$ ./brew.sh
+```
+
+You can backup and restore Atom packages after executing the scripts above.
+
+```
+# Restore packages
+$ apm install --packages-file ~/.atom/packages.list
+
+# Backup packages
+$ apm list --installed --bare | grep '^[^@]\+' -o > ~/.atom/packages.list
 ```
 
 ## CheatSheet
