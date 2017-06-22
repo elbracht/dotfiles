@@ -7,7 +7,6 @@ DOTFILES=(
   'system/bash_prompt'
   'system/path'
   'git/gitconfig'
-  'hyper/hyper.js'
 )
 
 for file in "${DOTFILES[@]}"; do
@@ -17,6 +16,10 @@ for file in "${DOTFILES[@]}"; do
 done
 
 unset DOTFILES
+
+# Link Atom
+rm -rf ~/.atom
+ln -s ./atom ~/.atom
 
 # Reload the shell
 source ~/.bash_profile
