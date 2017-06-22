@@ -7,7 +7,6 @@ DOTFILES=(
   'system/bash_prompt'
   'system/path'
   'git/gitconfig'
-  'hyper/hyper.js'
 )
 
 for file in "${DOTFILES[@]}"; do
@@ -17,6 +16,10 @@ for file in "${DOTFILES[@]}"; do
 done
 
 unset DOTFILES
+
+# Link Atom
+rm -rf ~/.atom
+ln -s ./atom ~/.atom
 
 # Download git completion file
 URL="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash"
