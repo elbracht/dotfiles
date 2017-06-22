@@ -1,0 +1,17 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7fb36644-bb14-4ff0-99d5-517a8b177db7"
+  core:
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Fira Code"
+    showInvisibles: true
+  "exception-reporting":
+    userId: "8e29e035-60d5-4200-a828-831aea99e9e8"
+  "linter-ui-default":
+    showPanel: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false
