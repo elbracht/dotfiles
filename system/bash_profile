@@ -1,0 +1,11 @@
+DOTFILES=(
+  ~/.aliases
+  ~/.bash_prompt
+  ~/.path
+)
+
+for file in "${DOTFILES[@]}"; do
+  [ -r "$file" ] && [ -f "$file" ] && source "$file"
+done
+
+unset DOTFILES
