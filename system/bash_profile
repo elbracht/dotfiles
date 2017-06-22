@@ -2,6 +2,7 @@ DOTFILES=(
   ~/.aliases
   ~/.bash_prompt
   ~/.path
+  ~/.git-completion
 )
 
 for file in "${DOTFILES[@]}"; do
