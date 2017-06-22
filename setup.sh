@@ -21,6 +21,10 @@ unset DOTFILES
 rm -rf ~/.atom
 ln -s ./atom ~/.atom
 
+# Link Hyper
+rm -f ~/.hyper.js
+ln -s ./hyper/hyper.js ~/.hyper.js
+
 # Download git completion file
 URL="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash"
 curl "$URL" --silent --output "$HOME/.git-completion"
