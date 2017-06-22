@@ -9,5 +9,6 @@ brew update
 brew upgrade
 
 brew cask install atom
+brew cask install hyper
 
 brew cask install font-fira-code
