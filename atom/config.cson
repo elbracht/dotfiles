@@ -29,6 +29,8 @@
   nuclide:
     "nuclide-flow":
       canUseFlowBin: true
+    "nuclide-home":
+      showHome: false
   "tool-bar":
     iconSize: "16px"
     position: "Right"
