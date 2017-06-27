@@ -3,14 +3,35 @@
     general:
       _analyticsUserId: "7fb36644-bb14-4ff0-99d5-517a8b177db7"
   core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+      "linter"
+      "linter-ui-default"
+    ]
     telemetryConsent: "no"
   editor:
     fontFamily: "Fira Code"
     showInvisibles: true
   "exception-reporting":
     userId: "8e29e035-60d5-4200-a828-831aea99e9e8"
-  "linter-ui-default":
-    showPanel: true
+  nuclide:
+    "nuclide-flow":
+      canUseFlowBin: true
+  "tool-bar":
+    iconSize: "16px"
+    position: "Right"
   welcome:
     showOnStartup: false
   whitespace:
