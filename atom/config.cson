@@ -27,6 +27,10 @@
   "exception-reporting":
     userId: "8e29e035-60d5-4200-a828-831aea99e9e8"
   nuclide:
+    "nuclide-file-tree":
+      revealFileOnSwitch: true
+      showOpenFiles: false
+      showUncommittedChanges: false
     "nuclide-flow":
       canUseFlowBin: true
     "nuclide-home":
