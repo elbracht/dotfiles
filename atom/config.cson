@@ -3,6 +3,9 @@
     general:
       _analyticsUserId: "7fb36644-bb14-4ff0-99d5-517a8b177db7"
   core:
+    disabledPackages: [
+      "whitespace"
+    ]
     telemetryConsent: "no"
   editor:
     fontFamily: "Fira Code"
@@ -13,5 +16,3 @@
     showPanel: true
   welcome:
     showOnStartup: false
-  whitespace:
-    removeTrailingWhitespace: false
