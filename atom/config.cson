@@ -19,6 +19,7 @@
       "tree-view"
       "linter"
       "linter-ui-default"
+      "whitespace"
     ]
     telemetryConsent: "no"
   editor:
@@ -40,5 +41,3 @@
     position: "Right"
   welcome:
     showOnStartup: false
-  whitespace:
-    removeTrailingWhitespace: false
