@@ -4,6 +4,8 @@
       _analyticsUserId: "7fb36644-bb14-4ff0-99d5-517a8b177db7"
   core:
     disabledPackages: [
+      "linter-ui-default"
+      "linter"
       "whitespace"
     ]
     telemetryConsent: "no"
