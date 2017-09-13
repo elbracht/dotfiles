@@ -8,7 +8,9 @@ emmet
 file-icons
 intentions
 language-babel
+language-latex
 language-swift
+latex
 linter
 linter-eslint
 linter-jsonlint
