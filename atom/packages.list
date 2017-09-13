@@ -7,14 +7,10 @@ emmet
 file-icons
 intentions
 language-babel
-language-ini
 language-swift
 linter
 linter-eslint
 linter-jsonlint
 linter-stylelint
 linter-ui-default
-nuclide
-nuclide-test-runner-jest
 sort-lines
-tool-bar
