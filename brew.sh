@@ -8,8 +8,13 @@ brew tap caskroom/fonts
 brew update
 brew upgrade
 
+brew cask install 1password
 brew cask install atom
+brew cask install bartender
+brew cask install fantastical
 brew cask install hyper
-brew cask install mactex
+brew cask install istat-menus
+brew cask install sketch
+brew cask install tower
 
 brew cask install font-fira-code
