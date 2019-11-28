@@ -8,11 +8,14 @@ brew tap caskroom/fonts
 brew update
 brew upgrade
 
+
+# Install brew software
 brew install git
+brew install node
+brew install ffmpeg
 
 brew cask install 1password
 brew cask install atom
-brew cask install bartender
 brew cask install fantastical
 brew cask install hyper
 brew cask install istat-menus

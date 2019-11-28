@@ -12,7 +12,7 @@ $ cd dotfiles
 $ source setup.sh
 
 # Install applications
-$ ./brew.sh
+$ ./install.sh
 ```
 
 You can backup and restore Atom packages after executing the scripts above.
