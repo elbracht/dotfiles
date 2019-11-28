@@ -12,7 +12,17 @@ $ cd dotfiles
 $ source setup.sh
 
 # Install applications
+# Please sign into the Mac App Store app first
 $ ./install.sh
+```
+
+Some applications require additional permissions for the system. Go to `System Preferences > Security & Privacy > Privacy > Accessibility` and check the following applications.
+
+```
+Bartender 3.app
+DeepL Helper.app
+Magnet.app
+Sip.app
 ```
 
 You can backup and restore Atom packages after executing the scripts above.
