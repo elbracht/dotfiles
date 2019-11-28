@@ -1,3 +1,7 @@
 [user]
 	name = Alexander Elbracht
 	email = alexander@elbracht.org
+[log]
+	date = format:%Y-%m-%d %H:%M
+[format]
+	pretty = format:%C(auto,yellow)%h %C(auto,blue)%ad %C(auto,green)%aN %C(auto,reset)%s %C(auto,red)%gD %D
