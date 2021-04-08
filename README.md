@@ -1,3 +1,5 @@
+# Deprecated: Does not work with ZSH, which is standard since macOS Catalina
+
 # Dotfiles
 
 ## Install
